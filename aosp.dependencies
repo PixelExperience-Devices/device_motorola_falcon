@@ -5,7 +5,7 @@
     "branch": "lineage-15.1"
   },
   {
-    "repository": "ricksanchez777/proprietary_vendor_motorola",
+    "repository": "ricksanchez777/kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
     "branch": "lineage-15.1"
   },
