@@ -41,4 +41,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto G"
 
 # Inherit common Android Go configurations
-$(call inherit-product, build/target/product/go_defaults.mk)
+#$(call inherit-product, build/target/product/go_defaults.mk)
