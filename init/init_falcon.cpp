@@ -168,4 +168,7 @@ void vendor_load_properties()
 
     std::string device = GetProperty("ro.product.device", "");
     LOG(INFO) << "Found radio id: '" << radio.c_str() << "', setting build properties for '" << device.c_str() << "' device\n";
+	
+	// Init a dummy BT MAC address, will be overwritten later
+    property_set("ro.boot.btmacaddr", "00:00:00:00:00:00");
 }
