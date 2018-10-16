@@ -6,6 +6,9 @@ TARGET_BOOT_ANIMATION_RES := 720
 TARGET_MINIMAL_APPS := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Use Gcam
+TARGET_USE_GCAM := true
+
 PRODUCT_RELEASE_NAME := falcon
 PRODUCT_NAME := aosp_falcon
 
