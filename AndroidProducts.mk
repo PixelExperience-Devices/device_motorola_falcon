@@ -15,4 +15,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_falcon.mk \
-    $(LOCAL_DIR)/lineage_falcon.mk
+    $(LOCAL_DIR)/rr_falcon.mk
