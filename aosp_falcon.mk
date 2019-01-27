@@ -1,15 +1,11 @@
 $(call inherit-product, device/motorola/falcon/full_falcon.mk)
 
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit some common PixelExperience stuff.
 TARGET_GAPPS_ARCH := arm
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_MINIMAL_APPS := true
 CUSTOM_BUILD_TYPE := OFFICIAL
-
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-
-
 
 PRODUCT_RELEASE_NAME := falcon
 PRODUCT_NAME := aosp_falcon
