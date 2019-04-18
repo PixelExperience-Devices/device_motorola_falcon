@@ -1,1 +1,1 @@
-add_lunch_combo rr_falcon-userdebug
+add_lunch_combo aosp_falcon-userdebug
